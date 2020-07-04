@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>KML Samples</name>
+  <Style id="sn_cross-hairs">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/earthquake.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00ff00</color>
+			<scale>3</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_cross-hairs">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_cross-hairs</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_cross-hairs_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_cross-hairs_highlight">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>3.6</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/earthquake.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00ff00</color>
+			<scale>3</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+    <open>1</open>
+    <description>Unleash your creativity with the help of these examples!</description>
+ 
+    <Folder>   
+      <name>Netstat Foreign address Locations</name>
+      <description>IP2Location from netstat output</description>
+        <Placemark>
+        <name>52.242.211.89</name>
+<styleUrl>#msn_cross-hairs</styleUrl>        
+<description>City: Des Moines, State:  Iowa</description>
+        <Point>
+          <coordinates>-93.6065216064453,41.6004409790039,0</coordinates>
+        </Point>
+      </Placemark>
+<Placemark>
+        <name>172.217.12.42</name>
+<styleUrl>#msn_cross-hairs</styleUrl>        
+<description>City: Dallas, State:  Texas</description>
+        <Point>
+          <coordinates>-96.8142318725586,32.8054313659668,0</coordinates>
+        </Point>
+      </Placemark>
+<Placemark>
+        <name>104.19.241.83</name>
+<styleUrl>#msn_cross-hairs</styleUrl>        
+<description>City: San Jose, State:  California</description>
+        <Point>
+          <coordinates>-121.838226318359,37.3305282592773,0</coordinates>
+        </Point>
+      </Placemark>
+<Placemark>
+        <name>172.217.9.10</name>
+<styleUrl>#msn_cross-hairs</styleUrl>        
+<description>City: Dallas, State:  Texas</description>
+        <Point>
+          <coordinates>-96.8142318725586,32.8054313659668,0</coordinates>
+        </Point>
+      </Placemark>
+<Placemark>
+        <name>64.38.207.73</name>
+<styleUrl>#msn_cross-hairs</styleUrl>        
+<description>City: Alhambra, State:  Arizona</description>
+        <Point>
+          <coordinates>-112.082550048828,33.5093803405762,0</coordinates>
+        </Point>
+      </Placemark>
+<Placemark>
+        <name>142.250.30.188</name>
+<styleUrl>#msn_cross-hairs</styleUrl>        
+<description>City: Mountain View, State:  California</description>
+        <Point>
+          <coordinates>-122.075408935547,37.4191589355469,0</coordinates>
+        </Point>
+      </Placemark>
+<Placemark>
+        <name>104.18.100.40</name>
+<styleUrl>#msn_cross-hairs</styleUrl>        
+<description>City: Ashburn, State:  Virginia</description>
+        <Point>
+          <coordinates>-77.4741973876953,39.043701171875,0</coordinates>
+        </Point>
+      </Placemark>
+<Placemark>
+        <name>162.247.242.20</name>
+<styleUrl>#msn_cross-hairs</styleUrl>        
+<description>City: San Francisco, State:  California</description>
+        <Point>
+          <coordinates>-122.393867492676,37.7885398864746,0</coordinates>
+        </Point>
+      </Placemark>
+<Placemark>
+        <name>104.16.94.42</name>
+<styleUrl>#msn_cross-hairs</styleUrl>        
+<description>City: San Jose, State:  California</description>
+        <Point>
+          <coordinates>-121.838226318359,37.3305282592773,0</coordinates>
+        </Point>
+      </Placemark>
+<Placemark>
+        <name>172.217.6.174</name>
+<styleUrl>#msn_cross-hairs</styleUrl>        
+<description>City: Dallas, State:  Texas</description>
+        <Point>
+          <coordinates>-96.8142318725586,32.8054313659668,0</coordinates>
+        </Point>
+      </Placemark>
+<Placemark>
+        <name>23.222.29.46</name>
+<styleUrl>#msn_cross-hairs</styleUrl>        
+<description>City: Enterprise, State:  Nevada</description>
+        <Point>
+          <coordinates>-115.224853515625,36.1423988342285,0</coordinates>
+        </Point>
+      </Placemark>
+<Placemark>
+        <name>72.21.81.200</name>
+<styleUrl>#msn_cross-hairs</styleUrl>        
+<description>City: Los Angeles, State:  California</description>
+        <Point>
+          <coordinates>-118.241638183594,34.0456390380859,0</coordinates>
+        </Point>
+      </Placemark>
+<Placemark>
+        <name>64.4.54.254</name>
+<styleUrl>#msn_cross-hairs</styleUrl>        
+<description>City: Cheyenne, State:  Wyoming</description>
+        <Point>
+          <coordinates>-104.779190063477,41.1418418884277,0</coordinates>
+        </Point>
+      </Placemark>
+<Placemark>
+        <name>54.88.194.72</name>
+<styleUrl>#msn_cross-hairs</styleUrl>        
+<description>City: Ashburn, State:  Virginia</description>
+        <Point>
+          <coordinates>-77.4741973876953,39.043701171875,0</coordinates>
+        </Point>
+      </Placemark>
+<Placemark>
+        <name>34.236.77.225</name>
+<styleUrl>#msn_cross-hairs</styleUrl>        
+<description>City: Ashburn, State:  Virginia</description>
+        <Point>
+          <coordinates>-77.4741973876953,39.043701171875,0</coordinates>
+        </Point>
+      </Placemark>
+
+   
+     
+    </Folder>
+  
+  </Document>
+</kml>
