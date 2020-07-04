@@ -1,0 +1,74 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\piratelabs\\source\\repos\\NSGeoTrace\\GoogleMapsAPIConnector\\GoogleMapsAPIDataAccess.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\piratelabs\\source\\repos\\NSGeoTrace\\GoogleMapsAPIConnector\\GoogleMapsAPIDataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\piratelabs\\source\\repos\\NSGeoTrace\\GoogleMapsAPIConnector\\GoogleMapsAPIDataAccess.csproj",
+        "projectName": "GoogleMapsAPIDataAccess",
+        "projectPath": "C:\\Users\\piratelabs\\source\\repos\\NSGeoTrace\\GoogleMapsAPIConnector\\GoogleMapsAPIDataAccess.csproj",
+        "packagesPath": "C:\\Users\\piratelabs\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\piratelabs\\source\\repos\\NSGeoTrace\\GoogleMapsAPIConnector\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\piratelabs\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "GoogleMaps.LocationServices": {
+              "target": "Package",
+              "version": "[1.2.0.5, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

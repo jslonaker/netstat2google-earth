@@ -1,0 +1,5 @@
+C:\Users\piratelabs\source\repos\NSGeoTrace\GoogleMapsAPIConnector\bin\Debug\netstandard2.0\GoogleMapsAPIConnector.deps.json
+C:\Users\piratelabs\source\repos\NSGeoTrace\GoogleMapsAPIConnector\bin\Debug\netstandard2.0\GoogleMapsAPIConnector.dll
+C:\Users\piratelabs\source\repos\NSGeoTrace\GoogleMapsAPIConnector\obj\Debug\netstandard2.0\GoogleMapsAPIConnector.csprojAssemblyReference.cache
+C:\Users\piratelabs\source\repos\NSGeoTrace\GoogleMapsAPIConnector\obj\Debug\netstandard2.0\GoogleMapsAPIConnector.AssemblyInfoInputs.cache
+C:\Users\piratelabs\source\repos\NSGeoTrace\GoogleMapsAPIConnector\obj\Debug\netstandard2.0\GoogleMapsAPIConnector.AssemblyInfo.cs
