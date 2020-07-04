@@ -1,0 +1,8 @@
+C:\Users\piratelabs\source\repos\NSGeoTrace\GeoIpAPIConnector\bin\Debug\netstandard2.0\GeoIpAPI.DataAccess.deps.json
+C:\Users\piratelabs\source\repos\NSGeoTrace\GeoIpAPIConnector\bin\Debug\netstandard2.0\GeoIpAPI.DataAccess.dll
+C:\Users\piratelabs\source\repos\NSGeoTrace\GeoIpAPIConnector\bin\Debug\netstandard2.0\GeoIpAPI.DataAccess.pdb
+C:\Users\piratelabs\source\repos\NSGeoTrace\GeoIpAPIConnector\obj\Debug\netstandard2.0\GeoIpAPI.DataAccess.csprojAssemblyReference.cache
+C:\Users\piratelabs\source\repos\NSGeoTrace\GeoIpAPIConnector\obj\Debug\netstandard2.0\GeoIpAPI.DataAccess.AssemblyInfoInputs.cache
+C:\Users\piratelabs\source\repos\NSGeoTrace\GeoIpAPIConnector\obj\Debug\netstandard2.0\GeoIpAPI.DataAccess.AssemblyInfo.cs
+C:\Users\piratelabs\source\repos\NSGeoTrace\GeoIpAPIConnector\obj\Debug\netstandard2.0\GeoIpAPI.DataAccess.dll
+C:\Users\piratelabs\source\repos\NSGeoTrace\GeoIpAPIConnector\obj\Debug\netstandard2.0\GeoIpAPI.DataAccess.pdb
