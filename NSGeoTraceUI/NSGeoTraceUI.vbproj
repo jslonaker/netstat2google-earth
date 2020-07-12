@@ -132,10 +132,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AmazonEC2.ResourceAccess\AmazonEC2.ResourceAccess.csproj">
-      <Project>{1016e959-2c27-4ece-85e8-b0a1e782615a}</Project>
-      <Name>AmazonEC2.ResourceAccess</Name>
-    </ProjectReference>
     <ProjectReference Include="..\GeoIpAPIConnector\GeoIpAPI.DataAccess.csproj">
       <Project>{cd0f2803-8fce-4821-9113-bb0ac83e2d3b}</Project>
       <Name>GeoIpAPI.DataAccess</Name>
