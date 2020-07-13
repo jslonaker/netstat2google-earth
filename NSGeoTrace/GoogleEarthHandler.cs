@@ -4,7 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using System.Data;
 namespace NSGeoTrace
 {
     public class GoogleEarthHandler
@@ -43,6 +43,31 @@ namespace NSGeoTrace
         </Point>
       </Placemark>";
 
+        public void Run(DataTable dtReport)
+        {
+            StringBuilder sb = new StringBuilder();
+            foreach(DataRow dr in dtReport.Rows)
+            {
+                string tmp = _kmlPlacemarkXml;
+                string humanReadableLoc = string.Concat("City: ", dr["city"], ", State:  ",dr["state"]);
+                string processinfo = string.Concat("pid: ", dr["pid"], " image name:", dr["processname"]);
+                tmp = tmp.Replace("--name--", dr["ip"].ToString());
+                tmp = tmp.Replace("--desc--", string.Concat(humanReadableLoc,Environment.NewLine,processinfo));
+                tmp = tmp.Replace("--lat--", dr["latitude"].ToString());
+                tmp = tmp.Replace("--lon--", dr["longitude"].ToString());
+                tmp = string.Concat(tmp, Environment.NewLine);
+                sb.Append(tmp);
+
+            }
+            string documentData = _kmlDoc.Replace("--replaceme--", sb.ToString());
+            if (File.Exists(@"doc.kml"))
+            {
+                File.Delete(@"doc.kml");
+            }
+
+            File.WriteAllText(@"doc.kml", documentData);
+        }
+        /*
         public void BuildKml(Dictionary<string,dynamic> GeoApiResult)
         {
             StringBuilder sb = new StringBuilder();
@@ -52,7 +77,8 @@ namespace NSGeoTrace
                 string tmp = _kmlPlacemarkXml;
                 dynamic Result = kvp_ip_result.Value;
                 string humanReadableLoc = string.Empty;
-                humanReadableLoc = string.Concat(humanReadableLoc, "City: ", Result.city, ", State:  ", Result.region_name);
+                humanReadableLoc = string.Concat(humanReadableLoc, "City: ", Result.city, ", State:  ", 
+                    Result.region_name);
                 tmp = tmp.Replace("--name--", Result.ip.ToString());
                 tmp = tmp.Replace("--desc--", humanReadableLoc);
                 tmp = tmp.Replace("--lat--", Result.latitude.ToString());
@@ -69,12 +95,9 @@ namespace NSGeoTrace
 
             File.WriteAllText(@"doc.kml",documentData);
 
-            /*
-             string x = _placemark_syntax;
-             x = x.Replace("--desc--", GeoApiResult.ipaddress);
-             x = x.Replace("--lat--", GeoApiResult.latitude);
-             x = x.Replace("--lon--", GeoApiResult.longitude);
-             */
+            
         }
+       
+        */
     }
 }

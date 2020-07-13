@@ -32,14 +32,20 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>NSGeoTrace.Program</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="HtmlAgilityPack, Version=1.11.24.0, Culture=neutral, PublicKeyToken=bd319b19eaf3b43a, processorArchitecture=MSIL">
       <HintPath>..\packages\HtmlAgilityPack.1.11.24\lib\Net45\HtmlAgilityPack.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL" />
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -52,7 +58,8 @@
     <Compile Include="NetStatController.cs" />
     <Compile Include="NetStatParser.cs" />
     <Compile Include="Program.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TaskListController.cs" />
+    <Compile Include="TaskListParser.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -62,10 +69,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AmazonEC2.ResourceAccess\AmazonEC2.ResourceAccess.csproj">
-      <Project>{1016e959-2c27-4ece-85e8-b0a1e782615a}</Project>
-      <Name>AmazonEC2.ResourceAccess</Name>
-    </ProjectReference>
     <ProjectReference Include="..\GeoIpAPIConnector\GeoIpAPI.DataAccess.csproj">
       <Project>{cd0f2803-8fce-4821-9113-bb0ac83e2d3b}</Project>
       <Name>GeoIpAPI.DataAccess</Name>
@@ -74,6 +77,9 @@
       <Project>{a3aa3f2c-35fa-4b21-9de1-7395b0e1b450}</Project>
       <Name>GoogleMapsAPIDataAccess</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

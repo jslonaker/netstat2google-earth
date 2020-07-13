@@ -10,7 +10,7 @@ namespace NSGeoTrace
     public class NetstatController
     {
         private string _nsdata = null;
-        public string NetstatData
+        public string Data
         {
             get
             {
@@ -18,13 +18,13 @@ namespace NSGeoTrace
             }
         }
 
-        public void CollectNetstatData()
+        public void Run()
         {
             using (Process proc = new Process())
             {
 
                 proc.StartInfo.FileName = @"c:\windows\system32\netstat.exe";
-                proc.StartInfo.Arguments = @"/p TCP /n";
+                proc.StartInfo.Arguments = @"-a -n -o";
                 proc.StartInfo.RedirectStandardOutput = true;
                 proc.StartInfo.UseShellExecute = false;
                 proc.Start();
@@ -33,11 +33,13 @@ namespace NSGeoTrace
                 
                 proc.WaitForExit();
 
-                if (File.Exists("@netstat.log")){
-                    File.Delete(@"netstat.log");
-                }
-                File.WriteAllText(@"netstat.log",_nsdata);
+                
             }
+            if (File.Exists("@netstat.log"))
+            {
+                File.Delete(@"netstat.log");
+            }
+            File.WriteAllText(@"netstat.log", _nsdata);
 
         }
     }
