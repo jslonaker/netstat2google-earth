@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "6Eon/Qm5g4m0QrLg7D1KVkI1VlZj3qZB9HJ0d8rbfuNaY+frSRPX+uwJPbmusQ54L2smmow+3A7R8rQbinMHQQ==",
+  "success": true,
+  "projectFilePath": "D:\\Projects\\netstat2google-earth-master\\SystemControl\\SystemControl.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\shayla\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\shayla\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -6,3 +6,12 @@ C:\Users\piratelabs\source\repos\NSGeoTrace\GoogleMapsAPIConnector\obj\Debug\net
 C:\Users\piratelabs\source\repos\NSGeoTrace\GoogleMapsAPIConnector\obj\Debug\netstandard2.0\GoogleMapsAPIDataAccess.AssemblyInfo.cs
 C:\Users\piratelabs\source\repos\NSGeoTrace\GoogleMapsAPIConnector\obj\Debug\netstandard2.0\GoogleMapsAPIDataAccess.dll
 C:\Users\piratelabs\source\repos\NSGeoTrace\GoogleMapsAPIConnector\obj\Debug\netstandard2.0\GoogleMapsAPIDataAccess.pdb
+D:\Projects\netstat2google-earth-master\GoogleMapsAPIConnector\bin\Debug\netstandard2.0\GoogleMapsAPIDataAccess.deps.json
+D:\Projects\netstat2google-earth-master\GoogleMapsAPIConnector\bin\Debug\netstandard2.0\GoogleMapsAPIDataAccess.dll
+D:\Projects\netstat2google-earth-master\GoogleMapsAPIConnector\bin\Debug\netstandard2.0\GoogleMapsAPIDataAccess.pdb
+D:\Projects\netstat2google-earth-master\GoogleMapsAPIConnector\obj\Debug\netstandard2.0\GoogleMapsAPIDataAccess.csprojAssemblyReference.cache
+D:\Projects\netstat2google-earth-master\GoogleMapsAPIConnector\obj\Debug\netstandard2.0\GoogleMapsAPIDataAccess.AssemblyInfoInputs.cache
+D:\Projects\netstat2google-earth-master\GoogleMapsAPIConnector\obj\Debug\netstandard2.0\GoogleMapsAPIDataAccess.AssemblyInfo.cs
+D:\Projects\netstat2google-earth-master\GoogleMapsAPIConnector\obj\Debug\netstandard2.0\GoogleMapsAPIDataAccess.csproj.CoreCompileInputs.cache
+D:\Projects\netstat2google-earth-master\GoogleMapsAPIConnector\obj\Debug\netstandard2.0\GoogleMapsAPIDataAccess.dll
+D:\Projects\netstat2google-earth-master\GoogleMapsAPIConnector\obj\Debug\netstandard2.0\GoogleMapsAPIDataAccess.pdb

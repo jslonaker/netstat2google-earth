@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\netstat2google-earth-master\\GeoIpAPIConnector\\GeoIpAPI.DataAccess.csproj": {}
+    "D:\\Projects\\netstat2google-earth-master\\SystemControl\\SystemControl.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\netstat2google-earth-master\\GeoIpAPIConnector\\GeoIpAPI.DataAccess.csproj": {
+    "D:\\Projects\\netstat2google-earth-master\\SystemControl\\SystemControl.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\netstat2google-earth-master\\GeoIpAPIConnector\\GeoIpAPI.DataAccess.csproj",
-        "projectName": "GeoIpAPI.DataAccess",
-        "projectPath": "D:\\Projects\\netstat2google-earth-master\\GeoIpAPIConnector\\GeoIpAPI.DataAccess.csproj",
+        "projectUniqueName": "D:\\Projects\\netstat2google-earth-master\\SystemControl\\SystemControl.csproj",
+        "projectName": "SystemControl",
+        "projectPath": "D:\\Projects\\netstat2google-earth-master\\SystemControl\\SystemControl.csproj",
         "packagesPath": "C:\\Users\\shayla\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\netstat2google-earth-master\\GeoIpAPIConnector\\obj\\",
+        "outputPath": "D:\\Projects\\netstat2google-earth-master\\SystemControl\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\shayla\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -38,14 +38,6 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
-            "HtmlAgilityPack": {
-              "target": "Package",
-              "version": "[1.11.24, )"
-            },
-            "MaxMind.GeoIP2": {
-              "target": "Package",
-              "version": "[3.2.0, )"
-            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",

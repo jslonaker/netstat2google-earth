@@ -50,8 +50,8 @@ namespace NSGeoTrace
             {
                 string tmp = _kmlPlacemarkXml;
                 string humanReadableLoc = string.Concat("City: ", dr["city"], ", State:  ",dr["state"]);
-                string processinfo = string.Concat("pid: ", dr["pid"], " image name:", dr["processname"]);
-                tmp = tmp.Replace("--name--", dr["ip"].ToString());
+                string processinfo = string.Concat("pid: ", dr["pid"], " image name:", dr["process_name"]);
+                tmp = tmp.Replace("--name--", dr["ip_addr"].ToString());
                 tmp = tmp.Replace("--desc--", string.Concat(humanReadableLoc,Environment.NewLine,processinfo));
                 tmp = tmp.Replace("--lat--", dr["latitude"].ToString());
                 tmp = tmp.Replace("--lon--", dr["longitude"].ToString());

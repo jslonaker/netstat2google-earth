@@ -6,3 +6,12 @@ C:\Users\piratelabs\source\repos\NSGeoTrace\GeoIpAPIConnector\obj\Debug\netstand
 C:\Users\piratelabs\source\repos\NSGeoTrace\GeoIpAPIConnector\obj\Debug\netstandard2.0\GeoIpAPI.DataAccess.AssemblyInfo.cs
 C:\Users\piratelabs\source\repos\NSGeoTrace\GeoIpAPIConnector\obj\Debug\netstandard2.0\GeoIpAPI.DataAccess.dll
 C:\Users\piratelabs\source\repos\NSGeoTrace\GeoIpAPIConnector\obj\Debug\netstandard2.0\GeoIpAPI.DataAccess.pdb
+D:\Projects\netstat2google-earth-master\GeoIpAPIConnector\bin\Debug\netstandard2.0\GeoIpAPI.DataAccess.deps.json
+D:\Projects\netstat2google-earth-master\GeoIpAPIConnector\bin\Debug\netstandard2.0\GeoIpAPI.DataAccess.dll
+D:\Projects\netstat2google-earth-master\GeoIpAPIConnector\bin\Debug\netstandard2.0\GeoIpAPI.DataAccess.pdb
+D:\Projects\netstat2google-earth-master\GeoIpAPIConnector\obj\Debug\netstandard2.0\GeoIpAPI.DataAccess.csprojAssemblyReference.cache
+D:\Projects\netstat2google-earth-master\GeoIpAPIConnector\obj\Debug\netstandard2.0\GeoIpAPI.DataAccess.AssemblyInfoInputs.cache
+D:\Projects\netstat2google-earth-master\GeoIpAPIConnector\obj\Debug\netstandard2.0\GeoIpAPI.DataAccess.AssemblyInfo.cs
+D:\Projects\netstat2google-earth-master\GeoIpAPIConnector\obj\Debug\netstandard2.0\GeoIpAPI.DataAccess.csproj.CoreCompileInputs.cache
+D:\Projects\netstat2google-earth-master\GeoIpAPIConnector\obj\Debug\netstandard2.0\GeoIpAPI.DataAccess.dll
+D:\Projects\netstat2google-earth-master\GeoIpAPIConnector\obj\Debug\netstandard2.0\GeoIpAPI.DataAccess.pdb

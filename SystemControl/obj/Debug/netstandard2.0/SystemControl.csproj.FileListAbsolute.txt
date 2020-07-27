@@ -1,0 +1,8 @@
+D:\Projects\netstat2google-earth-master\SystemControl\obj\Debug\netstandard2.0\SystemControl.AssemblyInfoInputs.cache
+D:\Projects\netstat2google-earth-master\SystemControl\obj\Debug\netstandard2.0\SystemControl.AssemblyInfo.cs
+D:\Projects\netstat2google-earth-master\SystemControl\obj\Debug\netstandard2.0\SystemControl.csproj.CoreCompileInputs.cache
+D:\Projects\netstat2google-earth-master\SystemControl\bin\Debug\netstandard2.0\SystemControl.deps.json
+D:\Projects\netstat2google-earth-master\SystemControl\bin\Debug\netstandard2.0\SystemControl.dll
+D:\Projects\netstat2google-earth-master\SystemControl\bin\Debug\netstandard2.0\SystemControl.pdb
+D:\Projects\netstat2google-earth-master\SystemControl\obj\Debug\netstandard2.0\SystemControl.dll
+D:\Projects\netstat2google-earth-master\SystemControl\obj\Debug\netstandard2.0\SystemControl.pdb

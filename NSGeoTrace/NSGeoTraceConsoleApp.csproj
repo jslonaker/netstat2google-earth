@@ -58,12 +58,9 @@
     <Compile Include="NetStatController.cs" />
     <Compile Include="NetStatParser.cs" />
     <Compile Include="Program.cs" />
-    <Compile Include="TaskListController.cs" />
-    <Compile Include="TaskListParser.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="packages.config" />
     <None Include="resources\template.kml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -73,9 +70,9 @@
       <Project>{cd0f2803-8fce-4821-9113-bb0ac83e2d3b}</Project>
       <Name>GeoIpAPI.DataAccess</Name>
     </ProjectReference>
-    <ProjectReference Include="..\GoogleMapsAPIConnector\GoogleMapsAPIDataAccess.csproj">
-      <Project>{a3aa3f2c-35fa-4b21-9de1-7395b0e1b450}</Project>
-      <Name>GoogleMapsAPIDataAccess</Name>
+    <ProjectReference Include="..\SystemControl\SystemControl.csproj">
+      <Project>{434a0468-276e-428d-a41b-cef3699ca78f}</Project>
+      <Name>SystemControl</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
